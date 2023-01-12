@@ -4,7 +4,7 @@ This is a tutorial on how to install Visual Studio Code, log into your course sp
 
 ## Installing Visual Studio Code
 
-1. The first step is to go to [Link](https://code.visualstudio.com/) and download the installation that matches your operating system.
+1. The first step is to go to [Visual Studio](https://code.visualstudio.com/) and download the installation that matches your operating system.
 2. Follow the prompts your computer gives you to download and install the software.
 3. Launch Visual Studio Code, you should see a window that looks something like this:
 
@@ -12,7 +12,7 @@ This is a tutorial on how to install Visual Studio Code, log into your course sp
 
 ## Remotely Connecting to Your Course Specific Account
 
-1. In order to connect to your course specific account, you must first look up your account at [Link](https://sdacs.ucsd.edu/~icc/index.php), the website should look something like this:
+1. In order to connect to your course specific account, you must first look up your account at [Account Lookup](https://sdacs.ucsd.edu/~icc/index.php), the website should look something like this:
 
  ![Image](images/password.png)
 
