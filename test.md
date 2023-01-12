@@ -22,12 +22,12 @@
 
 ## Some examples of code
 
-'System.out.println("Hello World!");' This is a print statement in Java
+`System.out.println("Hello World!");` This is a print statement in Java
 
-'''
+```
 # this is a method in Java
 public static void main(String[] args) {
   int number = 19;
   System.out.println("I am " + number + " years old");
 }
-'''
+```
