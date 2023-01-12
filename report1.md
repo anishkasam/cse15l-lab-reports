@@ -35,7 +35,7 @@ This is a tutorial on how to install Visual Studio Code, log into your course sp
 
 1. Once you have remotely connected to your course specific account, you can run some commands in the terminal!
 2. Try typing `ls` into your terminal, this command will list all of the files in your current directory.
-3. Try typing 'cd ~', this command will change your directory to your home directory.
+3. Try typing `cd ~`, this command will change your directory to your home directory.
 4. There are many other commands, here's a list of all of them:
 
 ![Image](images/commands.png)
