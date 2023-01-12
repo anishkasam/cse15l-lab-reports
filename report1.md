@@ -14,16 +14,16 @@ This is a tutorial on how to install Visual Studio Code, log into your course sp
 
 1. In order to connect to your course specific account, you must first look up your account at [Link](https://sdacs.ucsd.edu/~icc/index.php), the website should look something like this:
 
-![Image](images/password.png)
+ ![Image](images/password.png)
 
 2. In the first two input fields, put in your username and student ID, it should take you to a screen that looks like:
 
-![Image](images/lookup.png)
+ ![Image](images/lookup.png)
 
 3. Under the section **Additional Accounts** you should see a button with your username (from step 3). Click this button, and follow the prompts that show up to change your password.
 4. Once you've changed your password go to Visual Studio Code and open a new terminal. You can do this by going to the navigation bar at the top, hovering over **Terminal** and selecting **New Terminal**. Your Visual Studio should now look like this:
 
-![Image](images/terminal.png)
+ ![Image](images/terminal.png)
 
 5. Enter the following command into your terminal with **your username** `ssh cs15lwi23zz@ieng6.ucsd.edu`.
 6. The terminal will ask you if you want to continue connecting, type yes.
