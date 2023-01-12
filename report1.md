@@ -20,7 +20,7 @@ This is a tutorial on how to install Visual Studio Code, log into your course sp
 
 ![Image](images/lookup.png)
 
-3. Under the section **Additional Accounts** you should see a button with your username. Click this button, and follow the prompts that show up to change your password.
+3. Under the section **Additional Accounts** you should see a button with your username (from step 3). Click this button, and follow the prompts that show up to change your password.
 4. Once you've changed your password go to Visual Studio Code and open a new terminal. You can do this by going to the navigation bar at the top, hovering over **Terminal** and selecting **New Terminal**. Your Visual Studio should now look like this:
 
 ![Image](images/terminal.png)
@@ -34,3 +34,8 @@ This is a tutorial on how to install Visual Studio Code, log into your course sp
 ## Running Commands in the Terminal
 
 1. Once you have remotely connected to your course specific account, you can run some commands in the terminal!
+2. Try typing `ls` into your terminal, this command will list all of the files in your current directory.
+3. Try typing 'cd ~', this command will change your directory to your home directory.
+4. There are many other commands, here's a list of all of them:
+
+![Image](images/commands.png)
