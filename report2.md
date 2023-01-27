@@ -48,10 +48,10 @@ public void testReverseInPlaceTwo() {
 The symptom (running the J-Unit tests):
 ![Image](images/TestSymptoms.png)
 
-The original code, with the bug:
+The original code, with the bug:  
 ![Image](images/PreFix.png)
 
-The fixed code, with the bug fixed:
+The fixed code, with the bug fixed:  
 ![Image](images/PostFix.png)
 
 In the original code, the method attempts to move the elements by moving them to the reversed place. For example, if the input array is [1, 2, 3, 4] the method takes the first element and sets it to be the last element. The array then becomes [4, 2, 3, 4]. In the next loop iteration, the array becomes [4, 3, 3, 4]. The problem with this implementation is that the 1 and the 2 of the original array are never stored. Therefore, in the next iteration the array tries to replace the 3rd element with the 2nd element. However, the 2nd element has already been changed. 
