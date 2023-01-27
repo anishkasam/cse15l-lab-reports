@@ -10,18 +10,18 @@ Screenshot #1 of StringServer:
 
 In order to start the server that hosts the String Server, the main method must be called. Within the main method, the handleRequest method in the code is called. In the first screenshot, the code within the "else if" statement is executed.
 
-The argument for the call to the main method is the port number on my local computer where the String Server is hosted, in this screenshot, the server is hosted at port 5001. The argument for the call to the handleRequest method is the URL. In the screenshot above, the URL is "localhost:5001/add-message?s=good%20evening,%20how%20was%20your%20day". 
+The argument for the call to the main method is the port number on my local computer where the String Server is hosted, in this screenshot, the server is hosted at port 5001. The argument for the call to the handleRequest method is the URL. 
 
-From the specific request above, the URI is "localhost:5001/add-message?s=good%20evening,%20how%20was%20your%20day". Additionally, the value of the string array parameteres is ["s", "good evening, how was your day"]. As a result, the value of output becomes "good evening, how was your day\n".
+From the specific request above, the URI is "localhost:5001/add-message?s=good evening, how was your day". Additionally, the value of the string array parameteres is ["s", "good evening, how was your day"]. As a result, the value of output becomes "good evening, how was your day\n".
 
 Screenshot #2 of StringServer:
 ![Image](images/StringServerDemo2.png)
 
 Just like the code above, the main method must be called for the server to be hosted. Additionally, the handleRequest method is called from the main method. Furthermore, the specific block of code within the method that is executed is the code that is within the "else if" statement. 
 
-The argument for the call to the main method in the screenshot is also 5001. The argument for the call to the handleRequest method was "localhost:5001/add-message?s=my%20dy%20was%20wonderful,%20how%20was%20yours?".
+The argument for the call to the main method in the screenshot is also 5001. The argument for the call to the handleRequest method is the URL. 
 
-From the specific request above the URI is "localhost:5001/add-message?s=my%20dy%20was%20wonderful,%20how%20was%20yours?". Additionally, the value of the string array parameters is ["s", "my day was wonderful, how was yours?"]. Since the string output is already defined to be "good evening, how was your day\n", the new query argument is appended to the string. Therefore, the string output becomes "good evening, how was your day\n my day was wonderful, how was yours?\n".
+From the specific request above the URI is "localhost:5001/add-message?s=my day was wonderful, how was yours?". Additionally, the value of the string array parameters is ["s", "my day was wonderful, how was yours?"]. Since the string output is already defined to be "good evening, how was your day\n", the new query argument is appended to the string. Therefore, the string output becomes "good evening, how was your day\n my day was wonderful, how was yours?\n".
 
 ## Part 2
 
