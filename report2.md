@@ -13,14 +13,16 @@ What are the relevant arguments to those methods, and the values of any relevant
 How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
 
 Screenshot #2 of StringServer:
-![Image](iages/StringServerDemo2.png)
+![Image](images/StringServerDemo2.png)
 
 ## Part 2
 
 Failure-inducing input for the buggy program
-`@Test
- public void testReverseInPlaceTwo() {
- int[] input1 = {1, 2, 3, 4};
+`
+@Test
+public void testReverseInPlaceTwo() {
+    int[] input1 = {1, 2, 3, 4};
     ArrayExamples.reverseInPlace(input1);
     assertArrayEquals(new int[]{4, 3, 2, 1}, input1);
-  }`
+}
+`
