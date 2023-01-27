@@ -18,11 +18,11 @@ Screenshot #2 of StringServer:
 ## Part 2
 
 Failure-inducing input for the buggy program
-`
+```
 @Test
 public void testReverseInPlaceTwo() {
     int[] input1 = {1, 2, 3, 4};
     ArrayExamples.reverseInPlace(input1);
     assertArrayEquals(new int[]{4, 3, 2, 1}, input1);
 }
-`
+```
