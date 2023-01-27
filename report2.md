@@ -26,3 +26,13 @@ public void testReverseInPlaceTwo() {
     assertArrayEquals(new int[]{4, 3, 2, 1}, input1);
 }
 ```
+
+Non failure-inducing input for the buggy program
+```
+@Test
+public void testReverseInPlaceTwo() {
+    int[] input1 = {1, 2, 2, 1};
+    ArrayExamples.reverseInPlace(input1);
+    assertArrayEquals(new int[]{1, 2, 2, 1}, input1);
+}
+```
