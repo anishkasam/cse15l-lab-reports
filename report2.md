@@ -3,7 +3,7 @@
 ## Part 1
 
 Code for StringServer:
-![Image](images/StringServer.png)
+![Image](images/StringServerCode.png)
 
 Screenshot #1 of StringServer:
 ![Image](images/StringServerDemo1.png)
