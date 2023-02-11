@@ -2,9 +2,7 @@
 
 ## Researching Commands
 
-grep
-
-### -l
+### grep -l
 
 Source: [geeksforgeeks](https://www.geeksforgeeks.org/grep-command-in-unixlinux/)
 
