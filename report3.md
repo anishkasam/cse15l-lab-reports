@@ -8,7 +8,7 @@ Source: [geeksforgeeks](https://www.geeksforgeeks.org/grep-command-in-unixlinux/
 
 #### Example #1:
 
-Input:
+Input:  
 `grep -rl "Jamaica" written_2/`
 
 Output:
