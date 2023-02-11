@@ -26,6 +26,5 @@ written_2//travel_guides/berlitz2/Boston-WhereToGo.txt
 written_2//travel_guides/berlitz2/Bahamas-WhatToDo.txt
 written_2//travel_guides/berlitz2/Cuba-WhereToGo.txt
 written_2//travel_guides/berlitz2/Bahamas-History.txt
-```
-
+```  
 #### Example #2:
