@@ -103,7 +103,7 @@ written_2//non-fiction/OUP/Abernathy/ch3.txt:50
 ...
 ```
 
-This command searches each file and returns the number of occurrences of the specified phrase in that file. It iterates through every single file and shows the number of times "the" appears in the file.
+This command searches each file and returns the number of occurrences of the specified phrase in that file. It iterates through every single file and shows the number of times "the" appears in the file. This command is useful since you can find the frequency of a phrase in a file. For example, you can find which file has the most information on a certain topic by finding the number of occurrences of a certain term. Some files may mention the term in passing and only have 1 or 2 occurrences of a word, while other files may go in depth on the term and have a lot of occurrences. The number of occurrences can tell you which file has the most information on the term you're searching for.
 
 #### Example #2:
 
@@ -126,7 +126,7 @@ written_2//travel_guides/berlitz2/Beijing-WhatToDo.txt:0
 written_2//travel_guides/berlitz2/Cancun-WhereToGo.txt:0
 ```
 
-This command searches each file and returns the number of occurrences of the specified phrase in that file. It iterates through every single file and shows the number of times "Fidel Castro" appears in the file.
+This command searches each file and returns the number of occurrences of the specified phrase in that file. It iterates through every single file and shows the number of times "Fidel Castro" appears in the file. This command is useful since you can find the frequency of a phrase in a file. For example, you can find which file has the most information on a certain topic by finding the number of occurrences of a certain term. Some files may mention the term in passing and only have 1 or 2 occurrences of a word, while other files may go in depth on the term and have a lot of occurrences. The number of occurrences can tell you which file has the most information on the term you're searching for.
 
 ### grep -L
 
@@ -153,7 +153,7 @@ written_2//non-fiction/OUP/Rybczynski/ch1.txt
 ...
 ```
 
-This command searches each file for the phrase "history" and if the file doesn't contain the phrase, the command outputs the file. 
+This command searches each file for the phrase "history" and if the file doesn't contain the phrase, the command outputs the file. This command is useful to find files where certain phrases are ommitted. For example, if you have a directory of a bunch of attendance logs, and each file contains the names of the students present for a certain date. You would want to know which dates a student wasn't present in class. 
 
 #### Example #2:
 
@@ -176,4 +176,4 @@ written_2//non-fiction/OUP/Kauffman/ch7.txt
 ...
 ```
 
-This command searches each file for the phrase "United States" and if the file doesn't contain the phrase, the command outputs the file. 
+This command searches each file for the phrase "United States" and if the file doesn't contain the phrase, the command outputs the file. This command is useful to find files where certain phrases are ommitted. For example, if you have a directory of a bunch of attendance logs, and each file contains the names of the students present for a certain date. You would want to know which dates a student wasn't present in class. 
