@@ -92,7 +92,7 @@ Input:
 grep -rc "the" written_2/
 ```
 
-Output:
+Output (*Trimmed*):
 ```
 written_2//non-fiction/OUP/Berk/ch2.txt:183
 written_2//non-fiction/OUP/Berk/ch1.txt:153
@@ -102,7 +102,6 @@ written_2//non-fiction/OUP/Abernathy/ch2.txt:63
 written_2//non-fiction/OUP/Abernathy/ch3.txt:50
 ...
 ```
-*Output Trimmed*
 
 This command searches each file and returns the number of occurrences of the specified phrase in that file. It iterates through every single file and shows the number of times "the" appears in the file.
 
@@ -113,7 +112,7 @@ Input:
 grep -rc "Fidel Castro" written_2/
 ```
 
-Output:
+Output (*Trimmed*):
 ```
 ...
 written_2//travel_guides/berlitz2/Athens-WhatToDo.txt:0
@@ -126,7 +125,6 @@ written_2//travel_guides/berlitz2/Bahamas-History.txt:1
 written_2//travel_guides/berlitz2/Beijing-WhatToDo.txt:0
 written_2//travel_guides/berlitz2/Cancun-WhereToGo.txt:0
 ```
-*Output Trimmed*
 
 This command searches each file and returns the number of occurrences of the specified phrase in that file. It iterates through every single file and shows the number of times "Fidel Castro" appears in the file.
 
@@ -141,7 +139,7 @@ Input:
 grep -rL "history" written_2/
 ```
 
-Output:
+Output (*Trimmed*):
 ```
 written_2//non-fiction/OUP/Berk/CH4.txt
 written_2//non-fiction/OUP/Berk/ch7.txt
@@ -186,7 +184,6 @@ written_2//travel_guides/berlitz1/HandRLosAngeles.txt
 written_2//travel_guides/berlitz1/HandRMadeira.txt
 ...
 ```
-*Output Trimmed*
 
 This command searches each file for the phrase "history" and if the file doesn't contain the phrase, the command outputs the file. 
 
@@ -197,7 +194,7 @@ Input:
 grep -rL "United States" written_2/
 ```
 
-Output:
+Output (*Trimmed*):
 ```
 written_2//non-fiction/OUP/Berk/ch2.txt
 written_2//non-fiction/OUP/Abernathy/ch6.txt
@@ -210,6 +207,5 @@ written_2//non-fiction/OUP/Kauffman/ch5.txt
 written_2//non-fiction/OUP/Kauffman/ch7.txt
 ...
 ```
-*Output Trimmed*
 
 This command searches each file for the phrase "United States" and if the file doesn't contain the phrase, the command outputs the file. 
