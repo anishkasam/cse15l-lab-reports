@@ -28,7 +28,7 @@ written_2//travel_guides/berlitz2/Cuba-WhereToGo.txt
 written_2//travel_guides/berlitz2/Bahamas-History.txt
 ```
 
-This command recursively searches the directory for the phrase "Jamaica". It iterates through all the files and returns all of the file that contain "Jamaica". This command is useful because you may need to know which files contain a certain term. 
+This command recursively searches the directory for the phrase "Jamaica". It iterates through all the files and returns all of the file that contain "Jamaica". This command is useful because you may need to know which files contain a certain term. For example, if you are trying to find information on a certain topic, then you can search for which files contain that term to find the files that contain the information.
 
 #### Example #2:
 
@@ -44,7 +44,7 @@ written_2//travel_guides/berlitz1/WhatToJamaica.txt
 written_2//travel_guides/berlitz2/PuertoRico-WhereToGo.txt
 ```
 
-This command recursively searches the directory for the phrase "plantains". It iterates through all the files and returns all of the file that contain "plantains". This command is useful because you may need to know which files contain a certain term.
+This command recursively searches the directory for the phrase "plantains". It iterates through all the files and returns all of the file that contain "plantains". This command is useful because you may need to know which files contain a certain term. For example, if you are trying to find information on a certain topic, then you can search for which files contain that term to find the files that contain the information.
 
 ### grep -n
 
@@ -64,7 +64,7 @@ written_2//travel_guides/berlitz1/WhatToJamaica.txt:425:        of coffee, banan
 written_2//travel_guides/berlitz2/PuertoRico-WhereToGo.txt:110:From the caves it’s a short drive to Lares, the island’s center of coffee production. The sweet brew made from Puerto Rican beans is considered one of the finest in the world, though production is small. Coffee plants, usually interspersed with other crops such as bananas or plantains, can be seen growing on the high hillsides; it is a crop that enjoys good drainage and lots of humidity, which the large banana leaves help to conserve.
 ```
 
-This command recursively searches the given directory for the phrase "plantains". It iterates through all of the files and returns the file, the line number where the phrase is, and the line itself. This command is useful if you want to not only find the files where the phrase occurs, but also where in the file that phrase occurs.
+This command recursively searches the given directory for the phrase "plantains". It iterates through all of the files and returns the file, the line number where the phrase is, and the line itself. This command is useful if you want to not only find the files where the phrase occurs, but also where in the file that phrase occurs. For example, when searching for which files contain a certain term, if the files are really large, it would be useful to know where in the file that the phrase occurs so that you can easily find the information you need. 
 
 #### Example #2:
 
@@ -79,7 +79,7 @@ written_2//travel_guides/berlitz1/WhatToJamaica.txt:774:        being roasted an
 written_2//travel_guides/berlitz2/Cuba-WhereToGo.txt:182:A tortuous side road 12 km (7 miles) east along the coast ascends the mountains to La Gran Piedra (Big Stone), where you can climb on foot for a bird’s-eye view of eastern Cuba. About 2 km (about a mile) beyond, a passable dirt track leads to Museo La Isabelica, a 19th-century coffee-plantation finca (country house) with a workshop, original furniture, and a concrete garden where coffee beans were once laid out to dry.
 ```
 
-This command recursively searches the given directory for the phrase "coffee beans". It iterates through all of the files and returns the file, the line number where the phrase is, and the line itself. This command is useful if you want to not only find the files where the phrase occurs, but also where in the file that phrase occurs.
+This command recursively searches the given directory for the phrase "coffee beans". It iterates through all of the files and returns the file, the line number where the phrase is, and the line itself. This command is useful if you want to not only find the files where the phrase occurs, but also where in the file that phrase occurs. For example, when searching for which files contain a certain term, if the files are really large, it would be useful to know where in the file that the phrase occurs so that you can easily find the information you need. 
 
 ### grep -c
 
