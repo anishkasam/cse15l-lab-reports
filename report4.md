@@ -9,15 +9,18 @@ Click on the Settings tab and scroll all the way down. Click on the button that 
 ![Image](images/repodelete.png)
 
 If you are already logged into your ieng6 account in the terminal, cd out of the repository folder by typing:
-`cd ..`
+`cd ..`.
 This changes your directory to the parent directory.
 
 Then delete the fork from your ieng6 account by typing:
-`rm -rf lab7`
+`rm -rf lab7`.
 This recursively deletes the entire directory.
 
 ### Fork the repository
 
+Go to the lab7 repository which is at [Lab 7 Repository](https://github.com/ucsd-cse15l-w23/lab7). Click on the Fork button in the top right, and that should take you to a screen that looks like this:
+
+Click on the button that says "Create Fork".
 
 ### Start the timer!
 
