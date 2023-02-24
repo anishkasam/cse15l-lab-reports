@@ -19,10 +19,9 @@ This recursively deletes the entire directory.
 ### Fork the repository
 
 Go to the lab7 repository which is at [Lab 7 Repository](https://github.com/ucsd-cse15l-w23/lab7). Click on the Fork button in the top right, and that should take you to a screen that looks like this:
+![Image](images/forkscreen.png)
 
-Click on the button that says "Create Fork".
-
-### Start the timer!
+Click on the button that says "Create Fork". 
 
 ### Log into ieng6
 
